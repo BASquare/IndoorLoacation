@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OfficeMapViewController">
+            <connections>
+                <outlet property="mapContaner" destination="4OG-Ro-TME" id="2s9-a0-uuH"/>
+                <outlet property="view" destination="iN0-l3-epB" id="MqR-E0-GHa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="OfficeMap View">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="352"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4OG-Ro-TME" userLabel="Map Contaner View">
+                    <rect key="frame" x="0.0" y="36" width="354" height="316"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaE-Xu-JU2">
+                    <rect key="frame" x="0.0" y="3" width="36" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="0sz-jV-D5k"/>
+                        <constraint firstAttribute="height" constant="32" id="nhO-8f-bdS"/>
+                    </constraints>
+                    <state key="normal" image="det_butt.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbv-1T-oq8">
+                    <rect key="frame" x="329" y="3" width="25" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="bkw-zc-aGG"/>
+                        <constraint firstAttribute="height" constant="32" id="kCD-LX-rki"/>
+                    </constraints>
+                    <state key="normal" image="info_butt.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pouches" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iG-KG-NYm">
+                    <rect key="frame" x="195" y="3" width="131" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="131" id="S3J-nc-Bvc"/>
+                        <constraint firstAttribute="height" constant="32" id="wbf-I4-Sex"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fbv-1T-oq8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="MyJ-eD-2TQ"/>
+                <constraint firstItem="OaE-Xu-JU2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NGd-Sv-r5U"/>
+                <constraint firstItem="4OG-Ro-TME" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="36" id="Nr6-DS-7sh"/>
+                <constraint firstItem="4iG-KG-NYm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="YXI-Fz-5Qb"/>
+                <constraint firstAttribute="trailing" secondItem="Fbv-1T-oq8" secondAttribute="trailing" id="eSB-3N-Q2G"/>
+                <constraint firstAttribute="trailing" secondItem="4OG-Ro-TME" secondAttribute="trailing" id="kyc-U5-q8k"/>
+                <constraint firstItem="Fbv-1T-oq8" firstAttribute="leading" secondItem="4iG-KG-NYm" secondAttribute="trailing" constant="3" id="l8b-PQ-leN"/>
+                <constraint firstItem="OaE-Xu-JU2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="pXx-OV-4ji"/>
+                <constraint firstAttribute="bottom" secondItem="4OG-Ro-TME" secondAttribute="bottom" id="ra3-2T-ibX"/>
+                <constraint firstItem="4OG-Ro-TME" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="v8v-qG-p3P"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="139" y="167"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="det_butt.png" width="47" height="32"/>
+        <image name="info_butt.png" width="8" height="27"/>
+    </resources>
+</document>

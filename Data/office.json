@@ -1,0 +1,71 @@
+{
+	"Object":{
+		"Name":"BASquare office",
+		"Rooms":[
+				 {
+				 "Layer":"path3075",
+				 "Name":"Meeting Room"
+				 },
+				 {
+				 "Layer":"path4126",
+				 "Name":"Team B",
+				 "People": [
+							{
+							"Name":"Taras",
+							"Title":"iOS Developer, CEO"
+							},
+							{
+							"Name":"Volodja",
+							"Title":"Android Developer"
+							},
+							{
+							"Name":"Sofia",
+							"Title":"QA engener"
+							}
+				 ]
+				 },
+				 {
+				 "Layer":"path3079",
+				 "Name":"Team C",
+				 "People": [
+							{
+							"Name":"Taras",
+							"Title":"PM, QA engener"
+							},
+							{
+							"Name":"Alexande",
+							"Title":"PHP Developer"
+							},
+							{
+							"Name":"Natasha",
+							"Title":"PHP Developer"
+							}
+							]
+				 },
+				 {
+				 "Layer":"path3083",
+				 "Name":"Team A"
+				 },
+				 {
+				 "Layer":"path3085",
+				 "Name":"Kitchen"
+				 },
+				 {
+				 "Layer":"path3099",
+				 "Name":"Team A"
+				 },
+				 {
+				 "Layer":"path3101",
+				 "Name":"Team A"
+				 },
+				 {
+				 "Layer":"path3087",
+				 "Name":"Team A"
+				 },
+				 {
+				 "Layer":"path3089",
+				 "Name":"Team D"
+				 }
+				 ]
+	}
+}
